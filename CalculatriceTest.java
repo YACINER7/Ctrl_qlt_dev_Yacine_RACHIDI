@@ -7,30 +7,30 @@ public class CalculatriceTest {
 
     @Test
     public void addTest() {
-        assertEquals(2.0, calculatrice.add(1.0f, 1.0f));
+        assertEquals(2.0f, calculatrice.add(1.0f, 1.0f));
     }
 
     @Test
     public void multTest() {
-        assertEquals(8.0, calculatrice.mult(2.0f, 4.0f));
+        assertEquals(8.0f, calculatrice.mult(2.0f, 4.0f));
     }
 
     @Test
     public void divTest() {
-        assertEquals(4.0, calculatrice.div(8.0f, 2.0f));
+        assertEquals(4.0f, calculatrice.div(8.0f, 2.0f));
     }
 
     @Test
     public void divParZeroTest() {
         assertThrows(ArithmeticException.class, () -> {
-            calculatrice.div(7.0, 0.0);
+            calculatrice.div(7.0f, 0.0f);
             });
     }
     
     @Test
     public void minusTest() {
-        assertEquals(2.0, calculatrice.minus(5.0f, 3.0f));
-        assertEquals(-1.0, calculatrice.minus(2.0f, 3.0f));
+        assertEquals(2.0f, calculatrice.minus(5.0f, 3.0f));
+        assertEquals(-1.0f, calculatrice.minus(2.0f, 3.0f));
     }
 
 
