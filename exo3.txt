@@ -1,0 +1,5 @@
+Tout les tests ont été couverts à par celui de la multiplication c'est pour cela qu'on a un total de 83% des instructions qui sont couvertes.
+De plus on a 1 Missed au total qui vient de la methode multiplication. Ceux qui signifie que les autres méthodes ont bien été testé(couverte à 100%) et fonctionnent bien,
+seul multiplication pose problème.
+
+Pour améliorer ça il faut donc ajouter un test pour couvrir la multiplication et testé si la méthode fonctionne bien, sinon il faudra la changer.
