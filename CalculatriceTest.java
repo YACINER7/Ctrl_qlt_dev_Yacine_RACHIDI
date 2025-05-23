@@ -26,6 +26,12 @@ public class CalculatriceTest {
             calculatrice.div(7.0, 0.0);
             });
     }
+    
+    @Test
+    public void minusTest() {
+        assertEquals(2.0, calculatrice.minus(5.0, 3.0));
+        assertEquals(-1.0, calculatrice.minus(2.0, 3.0));
+    }
 
 
 }
