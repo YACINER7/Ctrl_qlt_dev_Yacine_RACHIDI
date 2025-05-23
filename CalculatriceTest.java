@@ -7,17 +7,17 @@ public class CalculatriceTest {
 
     @Test
     public void addTest() {
-        assertEquals(2.0, calculatrice.add(1.0, 1.0));
+        assertEquals(2.0, calculatrice.add(1.0f, 1.0f));
     }
 
     @Test
     public void multTest() {
-        assertEquals(8.0, calculatrice.mult(2.0, 4.0));
+        assertEquals(8.0, calculatrice.mult(2.0f, 4.0f));
     }
 
     @Test
     public void divTest() {
-        assertEquals(4.0, calculatrice.div(8.0, 2.0));
+        assertEquals(4.0, calculatrice.div(8.0f, 2.0f));
     }
 
     @Test
@@ -29,8 +29,8 @@ public class CalculatriceTest {
     
     @Test
     public void minusTest() {
-        assertEquals(2.0, calculatrice.minus(5.0, 3.0));
-        assertEquals(-1.0, calculatrice.minus(2.0, 3.0));
+        assertEquals(2.0, calculatrice.minus(5.0f, 3.0f));
+        assertEquals(-1.0, calculatrice.minus(2.0f, 3.0f));
     }
 
 
